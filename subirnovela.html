@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    
+
+        form{
+            background-color: brown;
+            text-align: left;
+            width: 250px;
+             
+            padding-bottom: 20px;
+            padding-top: 20px;
+            padding-left: 20px;
+            padding-right: 100px;
+            border-radius: 3%;
+        
+        }
+        div.caption{
+        text-align: left;
+        margin: 10px;
+        }
+        button{
+            color: orange;
+            border-radius: 8% ;
+            margin: 20px;
+        }
+        input{
+            border-radius:  8% ;
+            margin: 20px;
+            
+        }
+        label{
+             margin: 20px;
+        }
+        textarea{
+            margin: 10px;
+            border-radius: 10%;
+        }
+         select{
+            margin: 20px;
+         }
+         </style>
+
+     </head>
+     <body>
+          <div class="contenedor">
+         <form>
+             <div class="caption">Informacion sobre tu novela</div>
+             <label for="Titulo">Titulo</label>
+             <input type="text" id="Titulo">
+             <label for="Descripcion">Descripcion</label>
+             <textarea name="msg" id="Descripcion" cols="30" rows="5"></textarea>
+             
+             <label for="Nombrealternativo">Nombre altenativo</label>
+             <input type="text" id="Nombrealternativo">
+              
+<select name="estado"  > 
+<option value="En marcha">En marcha</option>
+<option value="Completa">Completa</option>
+<option value="Pausa">Pausa</option>
+<option value="Cancelada">Cancelada</option>
+</select>
+<p></p>
+
+             <label for="Año">Año</label>
+             <input type="date" id="Año">
+             <label for="NombreAutor">Nombre Autor</label>
+             <input type="text" id="NombreAutor">
+            <p><label for="Accion">Accion</label>
+              <input type="checkbox"id="Accion"></p>
+           <p><label for="Adulto">Maduro</label>
+              <input type="checkbox"id="Adulto"></p>
+            <p><label for="Romance">Romance</label>
+              <input type="checkbox"id="Romance"></p> 
+            <p><label for="Drama">Drama</label>
+              <input type="checkbox"id="Drama"></p>
+          <p><label for="Historico">Historico</label> <input type="checkbox"id="Historico"></p>
+             <button type="submit">Submit</button>
+
+
+
+
+             
+         </form>
+        </div>
+     </body>
+</html>
